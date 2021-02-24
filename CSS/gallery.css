@@ -1,0 +1,102 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/Webp.net-resizeimage.jpg);
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+header {
+    padding-bottom: 220px;
+}
+
+.gallery-text > h4 {
+    max-width: 800px;
+    text-align: center;
+    
+    padding: 50px 0px 180px 0px;
+}
+
+
+.gallery-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+}
+
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1350px;
+    margin: auto;
+    padding: 5px;
+
+}
+
+.img img {
+    width: 300px;
+    height: 300px;  
+    padding: 5px;  
+}
+
+.img {
+    background-color: antiquewhite;
+    padding: 5px 3px 35px 3px;
+    margin: 35px 10px;
+}
+
+
+.position {
+    margin-top: 60px;
+}
+
+.img:hover {
+    transform: translate(0px, -10px);
+}
+
+.reacts {
+    opacity: 0;
+    position: absolute;
+    background-color:antiquewhite;
+    width: 55px;
+    height: 50px;
+    border-radius: 8%;
+
+
+}
+
+.img:hover .reacts {
+    opacity: 1;
+}
+
+
+
+.reacts .far{
+    cursor: pointer;
+    padding: 10px;
+    color: black;
+    font-size: 30px;
+}
+
+.reacts .far:hover {
+    color:red;
+}
+
+.reacts .fav {
+    color: red;
+}
+
+
+
+  

@@ -1,0 +1,25 @@
+/* Helper */
+.d-flex {
+    display: flex;
+  }
+  .flex-clm {
+    flex-direction: column;
+  }
+  .flex-row {
+      flex-direction: row;
+  }
+  .justify-content-center {
+    justify-content: center;
+  }
+  .align-items-center {
+    align-items: center;
+  }
+  .float-btm {
+    float: bottom;
+  }
+  .float-right {
+      float: right;
+  }
+  .unique-color {
+    color: antiquewhite;
+  }

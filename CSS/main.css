@@ -1,0 +1,104 @@
+/* #2b3439 */
+
+* {
+  font-family: 'Turret Road', cursive;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  width: 600px;
+  height: 50px;
+  float: right;
+  margin-right: 10px;
+
+}
+nav ul {
+  width: 100%;
+  height: 100%;
+}
+nav ul li{
+  text-decoration: none;
+  display: inline-block;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+.menu-item {
+  display: block;
+  text-decoration: none;
+  color:antiquewhite;
+  font-size: 16px;
+  padding: 4px;
+}
+
+.menu-item::after {
+  content: '';
+  display: block;
+  width: 0px;
+  height: 2px;
+  border-bottom: 2px solid antiquewhite;
+  transition: 0.7s ease;
+}
+
+.menu-item:hover::after {
+  width: 100%;
+}
+
+.menu-item:active::after {
+  width: 100%;
+}
+
+.logo {
+  color: antiquewhite;
+  margin-top: 13px;
+  margin-left: 50px;
+}
+
+.logo span {
+  color: antiquewhite;
+}
+
+
+/* .aside-menu {
+  position: fixed;
+  top: 25%;
+
+}
+.aside-menu a {
+  display: block;
+  text-decoration: none;
+  background: antiquewhite;
+  color: #963745;
+  padding: 15px 0 15px 10px;
+  margin: 5px 0;
+  width: 150px;
+  letter-spacing: 1.5px;
+  box-shadow: 2px 2px 16px 0px rgba(0, 0, 0, 0.75);
+  position: relative;
+  margin-left: -130px;
+  transition: 0.5s ease;
+  border: 1px solid transparent;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+
+}
+.aside-menu a span {
+float: right;
+width: 30px;
+height: 100%;
+line-height: 50px;
+text-align: center;
+position: absolute;
+right: 0;
+top: 0;
+}
+.aside-menu a span i {
+    font-size: 20px;
+}
+.aside-menu a:hover {
+    margin-left: 0;
+} */

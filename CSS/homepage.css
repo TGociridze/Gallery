@@ -1,0 +1,96 @@
+body {
+  background-image: url(../img/Mountains\ after\ Sunset\ 4K\ 8K3365819133-2560x1440.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container-btns {
+  margin-top: 20px;
+}
+
+.content>p,
+.first-p,
+.second-p {
+  margin-bottom: 35px;
+}
+
+.middle-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  float: bottom;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content p {
+  color: antiquewhite;  
+}
+
+.first-p {
+  font-size: 30px;
+}
+
+.second-p {
+  font-size: 50px;
+}
+
+.container-btns {
+  display: flex;
+  width:700px;
+  height: 100px;
+}
+
+
+.visitor-btn,
+.user-btn {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 50px;
+  margin: 20px; 
+  border: 1px solid #963745;
+  background-color: #96374583;
+  text-align: center;
+  box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.75);
+  text-decoration: none;
+  font-size: 20px;
+
+}
+
+.visitor-btn,
+.user-btn {
+  text-decoration: none;
+  color: antiquewhite;
+  font-size: 20px;
+
+}
+
+.visitor-btn:hover,
+.user-btn:hover {
+  box-shadow: 4px 4px 5px black;
+}
+
+
+a {
+  color: antiquewhite;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  color: antiquewhite;
+}
+
+
+footer {
+  margin-bottom: 20px;
+}
+
