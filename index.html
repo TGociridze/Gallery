@@ -1,267 +1,228 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Photography</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"/>
-    <link href="https://fonts.googleapis.com/css?family=Turret+Road&display=swap" rel="stylesheet"/>
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./CSS/main.css" />
-    <link rel="stylesheet" href="./CSS/homepage.css">
-    <link rel="stylesheet" href="./CSS/helpers.css">
-    <link rel="stylesheet" href="./CSS/register.css">
-  </head>
-  <body>
-    <div>
-      <header id="header">
-        <div class="header-container">
-          <nav>
-            <ul>
-              <li>
-                <a href="index.html" class="menu-item">Main Page</a>
-              </li>
-              <li>
-                <a href="about.html" class="menu-item">About Us</a>
-              </li>
-              <li>
-                <a href="#" class="menu-item">Experience</a>
-              </li>
-              <li>
-                <a href="#" class="menu-item">Services</a>
-              </li>
-              <li>
-                <a href="#footer" class="menu-item">Contact</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-        <div>
-          <a href="./index.html">
-            <i class="fab fa-gg fa-2x logo"><span> | Gulugulu </span></i>
-          </a>
-        </div>
-      </header>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
- 
-      <div class="middle-container">
-        <div class="content">
-          <p>Welcome To</p>
-          
-          <p class="first-p">Photographer's Portfolio!</p>
 
-          <p class="second-p">Go To Gallery</p>
-        </div>
-        <div class="container-btns">
-          <a href="./gallery-visitor.html" class="visitor-btn" >As a visitor</a>
-          <a href="#" class="user-btn" id="myBtn">As a User</a>
-        </div>
-        <!-- The Modal -->
-        <div id="myModal" class="modal">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Photography</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" />
+  <link href="https://fonts.googleapis.com/css?family=Turret+Road&display=swap" rel="stylesheet" />
+  <!-- <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="./CSS/main.css" />
+  <link rel="stylesheet" href="./CSS/homepage.css">
+  <link rel="stylesheet" href="./CSS/helpers.css">
+  <link rel="stylesheet" href="./CSS/register.css">
+</head>
+
+<body>
+  <div>
+    <header id="header">
+      <div class="header-container">
+        <nav>
+          <ul>
+            <li>
+              <a href="index.html" class="menu-item">Main Page</a>
+            </li>
+            <li>
+              <a href="about.html" class="menu-item">About Us</a>
+            </li>
+            <li>
+              <a href="#" class="menu-item">Experience</a>
+            </li>
+            <li>
+              <a href="#" class="menu-item">Services</a>
+            </li>
+            <li>
+              <a href="#footer" class="menu-item">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div>
+        <a href="./index.html">
+          <i class="fab fa-gg fa-2x logo"><span> | Gulugulu </span></i>
+        </a>
+      </div>
+    </header>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <div class="middle-container">
+      <div class="content">
+        <p>Welcome To</p>
+
+        <p class="first-p">Photographer's Portfolio!</p>
+
+        <p class="second-p">Go To Gallery</p>
+      </div>
+      <div class="container-btns">
+        <a href="./gallery-visitor.html" class="visitor-btn">As a visitor</a>
+        <a href="#" class="user-btn" id="myBtn">As a User</a>
+      </div>
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
 
         <!-- Modal content -->
-            <div class="modal-content text-center">
-                <span class="close">&times;</span>
-                    <form class="form-signin">
+        <div class="modal-content text-center">
+          <span class="close">&times;</span>
+          <form class="form-signin">
 
-                        <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
-                        <label for="inputEmail" class="sr-only">Email address</label>
-                        <input
-                          type="email"
-                          id="inputEmail"
-                          class="form-control"
-                          placeholder="Email address"
-                          name="email"
-                          required
-                          autofocus
-                        />
-                        <label for="inputPassword" class="sr-only">Password</label>
-                        <input
-                          type="password"
-                          id="inputPassword"
-                          class="form-control"
-                          name="password"
-                          placeholder="Password"
-                          required
-                        />
-                        <div class="checkbox mb-3">
-                          <label>
-                            <input type="checkbox" value="remember-me" /> Remember me
-                          </label>
-                        </div>
-                        <button class="btn btn-lg btn-primary btn-block" type="submit">
-                          Sign In
-                        </button>
-
-                        <p class="mt-5 mb-3 text-muted">
-                            <a href="register.html" target = "_blank" style="color: #007BFF">Create new account</a>
-                            <br> &copy; 2017-2019</p>
-                      </form>
+            <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+            <label for="inputEmail" class="sr-only">Email address</label>
+            <input type="email" id="inputEmail" class="form-control" placeholder="Email address" name="email" required
+              autofocus />
+            <label for="inputPassword" class="sr-only">Password</label>
+            <input type="password" id="inputPassword" class="form-control" name="password" placeholder="Password"
+              required />
+            <div class="checkbox mb-3">
+              <label>
+                <input type="checkbox" value="remember-me" /> Remember me
+              </label>
             </div>
-      
+            <button class="btn btn-lg btn-primary btn-block" type="submit">
+              Sign In
+            </button>
+
+            <p class="mt-5 mb-3 text-muted">
+              <a href="register.html" target="_blank" style="color: #007BFF">Create new account</a>
+              <br> &copy; 2017-2019
+            </p>
+          </form>
+        </div>
+
+      </div>
+
+      <footer id="footer" class="unique-color" style="background-color: #96374583; width: 85vw; height: 60vh;">
+
+        <div
+          style="background-color: #963745; display: flex; flex-direction: row; align-items: center; justify-content: space-between">
+
+          <div style="padding:30px 15px; display: flex;">
+            <p style="margin-bottom:0; font-weight: bolder; font-size: 16px;">Get connected with us on social networks!
+            </p>
+          </div>
+
+          <div style="padding:30px 15px; display:flex; ">
+            <!-- Facebook -->
+            <a style="padding: 5px;">
+              <i class="fab fa-facebook-f white-text mr-4"> </i>
+            </a>
+            <!-- Twitter -->
+            <a style="padding: 5px;">
+              <i class="fab fa-twitter white-text mr-4"> </i>
+            </a>
+            <!-- Google +-->
+            <a style="padding: 5px;">
+              <i class="fab fa-google-plus-g white-text mr-4"> </i>
+            </a>
+            <!--Linkedin -->
+            <a style="padding: 5px;">
+              <i class="fab fa-linkedin-in white-text mr-4"> </i>
+            </a>
+            <!--Instagram-->
+            <a style="padding: 5px;">
+              <i class="fab fa-instagram white-text"> </i>
+            </a>
+
+          </div>
         </div>
 
 
+        <div style="display: flex; margin-top: 30px; justify-content: space-between;">
 
-          
-
-
-      
-        <footer id = "footer" class="page-footer font-small unique-color" style="background-color: #96374583;">
-
-          <div style="background-color: #963745;">
-            <div class="container">
-        
-              <!-- Grid row-->
-              <div class="row py-4 d-flex align-items-center">
-        
-                <!-- Grid column -->
-                <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
-                  <h6 class="mb-0 font-weight-bold">Get connected with us on social networks!</h6>
-                </div>
-                <!-- Grid column -->
-        
-                <!-- Grid column -->
-                <div class="col-md-6 col-lg-7 text-center text-md-right">
-        
-                  <!-- Facebook -->
-                  <a class="fb-ic">
-                    <i class="fab fa-facebook-f white-text mr-4"> </i>
-                  </a>
-                  <!-- Twitter -->
-                  <a class="tw-ic">
-                    <i class="fab fa-twitter white-text mr-4"> </i>
-                  </a>
-                  <!-- Google +-->
-                  <a class="gplus-ic">
-                    <i class="fab fa-google-plus-g white-text mr-4"> </i>
-                  </a>
-                  <!--Linkedin -->
-                  <a class="li-ic">
-                    <i class="fab fa-linkedin-in white-text mr-4"> </i>
-                  </a>
-                  <!--Instagram-->
-                  <a class="ins-ic">
-                    <i class="fab fa-instagram white-text"> </i>
-                  </a>
-        
-                </div>
-                <!-- Grid column -->
-        
-              </div>
-              <!-- Grid row-->
-        
-            </div>
-          </div>
-        
-          <!-- Footer Links -->
-          <div class="container text-center text-md-left mt-5">
-        
-            <!-- Grid row -->
-            <div class="row mt-3">
-        
-              <!-- Grid column -->
-              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-        
-                <!-- Content -->
-                <h6 class="text-uppercase font-weight-bold">Gulugulu</h6>
-                <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi itaque a fugit eveniet labore molestias quibusdam obcaecati, eos debitis similique sequi eius, totam quisquam adipisci cumque, magnam quis voluptate provident.</p>
-        
-              </div>
-              <!-- Grid column -->
-        
-              <!-- Grid column -->
-              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-        
-                <!-- Links -->
-                <h6 class="text-uppercase font-weight-bold">Products</h6>
-                <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; color: antiquewhite;">
-                <p>
-                  <a href="#!">Wedding Gallery</a>
-                </p>
-                <p>
-                  <a href="#!">Family Gallery</a>
-                </p>
-                <p>
-                  <a href="#!">Nature Gallery</a>
-                </p>
-                <p>
-                  <a href="#!">Abstract Gallery</a>
-                </p>
-        
-              </div>
-              <!-- Grid column -->
-        
-              <!-- Grid column -->
-              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-        
-                <!-- Links -->
-                <h6 class="text-uppercase font-weight-bold">Useful links</h6>
-                <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                <p>
-                  <a href="#!">WED-G.com</a>
-                </p>
-                <p>
-                  <a href="#!">Family-G.com</a>
-                </p>
-                <p>
-                  <a href="#!">Nat-G.com</a>
-                </p>
-                <p>
-                  <a href="#!">Abs-G.com</a>
-                </p>
-        
-              </div>
-              <!-- Grid column -->
-        
-              <!-- Grid column -->
-              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-        
-                <!-- Links -->
-                <h6 class="text-uppercase font-weight-bold">Contact</h6>
-                <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                <p>
-                  <i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
-                <p>
-                  <i class="fas fa-envelope mr-3"></i> info@example.com</p>
-                <p>
-                  <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
-                <p>
-                  <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
-        
-              </div>
-              <!-- Grid column -->
-        
-            </div>
-            <!-- Grid row -->
-        
-          </div>
-          <!-- Footer Links -->
-        
-          <!-- Copyright -->
-          <div class="footer-copyright text-center py-3">© 2018 Copyright:
-            <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
-          </div>
-          <!-- Copyright -->
-        </footer>
-        <div>
-            <a href="#header">
-              <i class="fas fa-arrow-circle-up"></i>
-            </a>
+          <div style="display: flex; flex-direction: column; width: 20vw; padding-left:15px; margin-bottom: px">
+            <h3 style="font-weight: bold;">Gulugulu</h3>
+            <p style="margin-top: 20px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi itaque a fugit
+              eveniet labore molestias
+              quibusdam obcaecati, eos debitis similique sequi eius, totam quisquam adipisci cumque, magnam quis
+              voluptate provident.</p>
           </div>
 
-          <script src="./JS/main.js"></script>
-          <script src="./JS/signin.js"></script>
+          <div style="display: flex; flex-direction: column; width: 20vw; padding-left:15px; margin-bottom: px">
 
-    </body>
+            <h3 style="font-weight: bold;">Products</h3>
+            <p style="margin-top: 20px">
+              <a href="#!">Wedding Gallery</a>
+            </p>
+            <p>
+              <a href="#!">Family Gallery</a>
+            </p>
+            <p>
+              <a href="#!">Nature Gallery</a>
+            </p>
+            <p>
+              <a href="#!">Abstract Gallery</a>
+            </p>
+
+          </div>
+
+          <div style="display: flex; flex-direction: column; width: 20vw; padding-left:15px; margin-bottom: px">
+
+            <h3 style="font-weight: bold; width: 20vw;">Useful links</h3>
+
+            <p style="margin-top: 20px">
+              <a href="#!">WED-G.com</a>
+            </p>
+            <p>
+              <a href="#!">Family-G.com</a>
+            </p>
+            <p>
+              <a href="#!">Nat-G.com</a>
+            </p>
+            <p>
+              <a href="#!">Abs-G.com</a>
+            </p>
+
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div style="display: flex; flex-direction: column; width: 20vw; padding-left:15px; margin-bottom: px">
+
+            <!-- Links -->
+            <h3 style="font-weight: bold; width: 20vw">Contact</h3>
+            <p style="margin-top: 20px">
+              <i class="fas fa-home mr-3"></i> New York, NY 10012, US
+            </p>
+            <p>
+              <i class="fas fa-envelope mr-3"></i> info@example.com
+            </p>
+            <p>
+              <i class="fas fa-phone mr-3"></i> + 01 234 567 88
+            </p>
+            <p>
+              <i class="fas fa-print mr-3"></i> + 01 234 567 89
+            </p>
+
+          </div>
+          <!-- Grid column -->
+
+        </div>
+
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2018 Copyright:
+          <a href="#"> Gulugulu</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <div>
+        <a href="#header">
+          <i class="fas fa-arrow-circle-up"></i>
+        </a>
+      </div>
+
+      <script src="./JS/main.js"></script>
+      <script src="./JS/signin.js"></script>
+
+</body>
+
 </html>
